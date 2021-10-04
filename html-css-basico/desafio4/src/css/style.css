@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+h1 {
+    background-color: rgb(78, 27, 179);
+    color: #ffffff;
+    padding: 20px 10px;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* DESAFIO 4 - Corrigido*/
+
+.titulo {
+    color: #000000;
+    margin: 30px 0 10px;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+th, td {
+    width: 125px;
+    padding: 20px 30px;
+}
+
+.moda th{
+    background-color: #BB86FC;
+}
+
+.casa th{
+    background-color: #00C4B4;
+}
+
+.moda th, .casa th{
+    text-align: center;
+}
+
+/*Aqui ao utilizar o seletor tr, obtemos o mesmo resultado do seletor td*/
+.moda tr, .casa tr {
+    background-color:  #424250;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: left;
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgba(78, 27, 179, 0.1);
+    font-size: 16px;
+}
+
+h1 {
+    background-color: rgb(78, 27, 179);
+    color: #ffffff;
+    padding: 20px 10px;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* DESAFIO 3 */
+
+.container {
+    width: 375px;
+    margin: 8% auto 0;
+}
+
+.padrao {
+    background-color: #F5F5F5;
+}
+
+.destacado {
+    background-color: #F0CCE2;
+}
+
+.padrao, .destacado {
+    max-width: 375px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
